@@ -121,14 +121,15 @@ padding-bottom: 150px;
 }
 
 #myBar {
+  float: right;
   position: absolute;
-  width: 0%;
-  height:100;
+  width: 1% ;
+  height:100%;
   background-color: #68E0DF;
 }
 
 #label {
-  text-align: center;
+  text-align: center !important;
   line-height: 30px;
   color: white;
 }
@@ -136,4 +137,5 @@ padding-bottom: 150px;
 #icon{
   padding-top: 25px;
   padding-bottom: 50px;
+  width: 100%;
 }
