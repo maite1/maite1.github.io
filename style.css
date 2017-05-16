@@ -769,6 +769,8 @@ img {
   background: white;
   border-radius: 0.25em;
   padding: 1em;
+font-weight: 300 !important;
+  color: #222 !important;
 }
 .cd-timeline-content:after {
   content: "";
