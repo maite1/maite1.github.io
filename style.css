@@ -187,8 +187,6 @@ hr{
 
 }
 
-
-
 /*--------------------------------------------------------------------------les pages---------------------------------------------------------------*/
 #presentation-titre{
     padding-bottom:100px;
@@ -200,7 +198,7 @@ hr{
     width: 100%;
     height: auto;
     padding-top: 50px;
-     background: url(assets/images/bg.png) no-repeat;
+     background: url(assets/images/bg.jpg) no-repeat;
      -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -792,7 +790,7 @@ img {
 .cd-timeline-content p {
   margin: 1em 0;
   line-height: 1.6;
-font-size: 18px !important;
+  font-size: 14px !important;
   color: #222 !important;
 }
 .cd-timeline-content .cd-read-more {
@@ -825,11 +823,8 @@ font-size: 18px !important;
     font-size: 1.25rem;
   }
   .cd-timeline-content p {
-	  font-family:'verdana';
-    font-size: 20px !important;
-    font-size: 1rem !important;
- font-weight: 20px !important;
-  color: #222 !important;
+    font-size: 16px;
+    font-size: 1rem;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 14px;
