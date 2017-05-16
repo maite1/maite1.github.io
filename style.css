@@ -769,7 +769,7 @@ img {
   background: white;
   border-radius: 0.25em;
   padding: 1em;
-font-weight: 300 !important;
+font-weight: 20px !important;
   color: #222 !important;
 }
 .cd-timeline-content:after {
