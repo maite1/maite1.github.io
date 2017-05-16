@@ -4,296 +4,425 @@
   <title>Maïté Gérard-cv</title>
   <link rel="icon" href="assets/images/ME-ConvertImage.ico" />
   <meta charset="utf-8">
-  <meta name="viewport" content="initial-scale=1">
   <meta name="description" content="CV numérique de Maïté gérard" />
   <!--style-->
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="assets/css/reset.css"> <!-- CSS reset timeline-->
-  <link rel="stylesheet" href="assets/css/timeline.css"> <!-- timeline style -->
-  <link href="assets/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet"><!--timeline-->
+  <link rel="stylesheet" href="reset.css">
   <!--style bootstrap-->
   <link href="assets/css/bootstrap.css" rel="stylesheet">
-  <!--jquery js bootstrap-->
+  <!--jquery js bootstrap modernizr-->
   <script src="assets/js/jquery-2.2.4.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/code.js"></script>
-  <!--timeline js-->
-  <script src="assets/js/jquery.mobile.custom.min.js"></script>
-  <script src="assets/js/main.js"></script>
   <script src="assets/js/modernizr.js"></script>
+  <!--graph-->
+  <link rel="stylesheet" href="assets/css/reset.min.css">
+  <!--font-awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 <body>
   <!--MENU-->
- <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+  <header id="header">
+<div class="open"> <span class="cls"></span> <span>
+  <ul class="sub-menu ">
+    <li> <a href="#competence" class="link js-scrollTo">A propos</a> </li>
+    <li> <a href="#formation" class="link js-scrollTo">Expérience</a> </li>
+    <li> <a href="#contact" class="link js-scrollTo">Contact</a> </li>
+  </ul>
+  </span> <span class="cls"></span> </div>
+</header>
+  <!--ENTETE-->
+  <div id="presentation" class="container-fluid centered">
+    <div class="row">
+     <div id="presentation-titre">
+        <hgroup class="top">
+            <img  src="assets/images/ME.png">
+       <hr>
+      <h1 class="titre" >MAITE GERARD - GRAPPHISTE WEB / DEVELOPPEUSE FRONT-END JUNIOR</h1>
+        <hr>
+    </hgroup>
+   </div>
+  </div><!--end row-->
+</div><!--end container-fluid-->
+  <!--COMPETENCES-->
+  <div id="competence" class="container-fluid centered">
+    <div class="row">
+      <div id=" accroche">
+        <h1>A PROPOS</h1>
+        <p>
+        <img src="assets/images/quotation-mark.png" > __________________________________________________
+      </p>
+    </br>
+        <p class="text">
+          Vous recherchez une graphiste web / développeuse front-end </br> chevronnée, je ne le suis pas encore mais j'aimerai le devenir.
+        </p>
+      </br>
+        <p>
+        __________________________________________________
+        <img src="assets/images/quotation-mark 2.png" >
+      </p>
       </div>
-      <div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li><a href="#presentation">coordonnées</a></li>
-            <li><a href="#formation">Formation  et expérience</a></li>
-            <li><a href="#competence">Compétences</a></li>
-            <li><a href="#interet">Centre d'intérêts</a></li>
-          </ul>
+      <div id="images">
+        <h1 class="titre">MES CENTRES D'INTERETS</h1>
+      </br></br></br>
+      <ul id="image-wrapper">
+        <li>
+          <figure data-title="Jeux vidéo" data-desc="J'apprécie  les rpg, et le rétro-gaming, jouant surtout sur console de salon.">
+            <a href="#" class="image-link">
+              <img src="assets/images/Jvideo.png" alt=""/>
+            </a>
+          </figure>
+          <figure data-title="La musique" data-desc="J'écoute beaucoup de musique, en particulier du rock indépendant ou les bons vieux classiques.">
+            <a href="#" class="image-link">
+              <img src="assets/images/musique.png" alt=""/>
+            </a>
+          </figure>
+          <figure data-title="Les bons films" data-desc="Dans l'ordre de préférence ce serait les films de science-fiction, historiques, et d'actions... Qoique, je voue aussi un
+          culte aux nanars.">
+            <a href="#" class="image-link">
+              <img src="assets/images/cine.png" alt=""/>
+            </a>
+          </figure>
+          <figure data-title="les bandes dessinées" data-desc="J'aime surtout les univers décalés, les comics underground, les mangas, et les romans graphiques.">
+            <a href="#" class="image-link">
+              <img src="assets/images/bd.png" alt=""/>
+            </a>
+          </figure>
+          <div class="image-details">
+            <a href="#" class="image-details-close">Close</a>
+            <div class="image-details-content">
+              <figure class="image"></figure>
+            </div>
+            <div class="image-details-desc">
+              <h3 class="image-details-title"></h3>
+              <p class="image-details-text"></p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <figure data-title="Le dessin" data-desc="Lié de prêt à ma lecture intensive de BD, je dessine beaucoup à mes heures perdues créant mon propre univers
+          graphique.">
+            <a href="#" class="image-link">
+              <img src="assets/images/dessin.png" alt=""/>
+            </a>
+          </figure>
+          <figure data-title="l'histoire" data-desc="Sur toutes les époques je peux passer des heures à assimiler différents thèmes historiques.">
+            <a href="#" class="image-link">
+              <img src="assets/images/histoire.png" alt=""/>
+            </a>
+          </figure>
+          <figure data-title="Graphisme" data-desc="Je m'interesse beaucoup au graphisme, son histoire, son évolution, et sa pratique. J'aime pratiquer
+          la photo-manipulation pour étoffer d'avantage ma créativité.">
+            <a href="#" class="image-link">
+              <img src="assets/images/photomanip.png" alt=""/>
+            </a>
+          </figure>
+          <figure data-title="La lecture" data-desc="J'affectionne surtout la fantasy burlesque, la science-fiction, et les roman uchroniques.">
+            <a href="#" class="image-link">
+              <img src="assets/images/LECTURE.png" alt=""/>
+            </a>
+          </figure>
+          <div class="image-details">
+            <a href="#" class="image-details-close">Close</a>
+            <div class="image-details-content">
+              <figure class="image"></figure>
+            </div>
+            <div class="image-details-desc">
+              <h3 class="image-details-title"></h3>
+              <p class="image-details-text"></p>
+            </div>
+          </div>
         </li>
       </ul>
     </div>
-  </div>
-</div>
-</nav>
-<!--COORDONEES-->
-<div id="presentation" class="container centered">
-  <div class="row">
-  <img  src="assets/images/ME.png">
-  <hr>
-  <h1 class="titre" >Maïté Gérard - Développeuse web junior</h1>
-  <hr>
-  <div class="col-lg-12">
-    <a href="https://github.com/maite1">
-      <img  class="zoomEffect" src="assets/images/github.png" alt="logo_github" title="Mon GitHub">&nbsp;
-    </a>
-    <a href="https://fr.linkedin.com/in/maïté-gérard-148b78128">
-      <img  class="zoomEffect" src="assets/images/linkedin.png" alt="linkedin" title="Mon linkedIn">&nbsp;
-    </a>
-    <a href="https://www.facebook.com/mouskitonk">
-      <img  class="zoomEffect" src="assets/images/facebook.png" alt="logo_facebook" title="Mon facebook">&nbsp;
-    </a>
-  </div>
-  <div class="col-md-4">
-    <h4>Adresse:</h4>
-    <p class="p">188 rue Raymond Rollin<br/>60170 Pimprez</p>
-  </div>
-  <div class="col-md-4">
-    <h4>Téléphone:</h4>
-    <p class="p">06-70-87-55-40</p>
-  </div>
-  <div class="col-md-4">
-    <h4>Email:</h4>
-    <p class="p">maitegerard1@gmail.com</p>
-  </div>
-</div>
-</div>
-<!--FORMATION et EXPERIENCE PROFESSIONNELLE-->
-<div id="formation" class="container">
-  <h1 class="centered">Formation et expérience professionnelle:</h1>
-  <section class="cd-horizontal-timeline">
-    <div class="timeline row">
-      <div class="events-wrapper">
-        <div class="events col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <ol>
-            <li><a href="#0" data-date="00/00/2002" class="selected">2002</a></li>
-            <li><a href="#0" data-date="00/00/2003">2003</a></li>
-            <li><a href="#0" data-date="00/00/2004">2004</a></li>
-            <li><a href="#0" data-date="00/00/2005">2005</a></li>
-            <li><a href="#0" data-date="00/00/2006">2006</a></li>
-            <li><a href="#0" data-date="00/00/2008">2008</a></li>
-            <li><a href="#0" data-date="00/00/2009">2009</a></li>
-            <li><a href="#0" data-date="00/00/2010">2010</a></li>
-            <li><a href="#0" data-date="00/00/2011">2011</a></li>
-            <li><a href="#0" data-date="00/00/2012">2012</a></li>
-            <li><a href="#0" data-date="00/00/2013">2013</a></li>
-            <li><a href="#0" data-date="00/00/2014">2014</a></li>
-            <li><a href="#0" data-date="00/00/2015">2015</a></li>
-            <li><a href="#0" data-date="00/00/2016">2016</a></li>
-          </ol>
-          <span class="filling-line" aria-hidden="true"></span>
-        </div>
-      </div>
-      <ul class="cd-timeline-navigation">
-        <li><a href="#0" class="prev inactive">Prev</a></li>
-        <li><a href="#0" class="next">Next</a></li>
-      </ul>
+    <div id="comp">
+      <h1>COMPETENCES</h1>
     </div>
-    <div class="events-content row">
-      <ol>
-        <li class="selected" data-date="00/00/2002">
-          <h2>Première année BT VMC </h2>
-          <div class="col-lg-12 col-md-6 col-sm-12 col-xs-10 font">
-            <p><strong>Du 4 septembre 2001 au 21 juin 2002:</strong><br/> Première année d'étude , brevet de technicien Vêtements, Mesures, et Créations.
-            Lycée Edouard Gand, Amiens.</p>
-            <p><strong>juillet 2002:</strong><br/>
-            Accueil clientèle, piscine d'entreprise, Colgate Palmolive à Compiègne. Mission intérim de un mois.
-          </p>
-          </div>
-        </li>
-        <li data-date="00/00/2003">
-          <h2>Deuxième année BT VMC </h2>
-          <div class="col-lg-12 col-md-6 col-sm-12 col-xs-10 font">
-            <p><strong>Du 4 septembre 2002 au 20 juin 2003:</strong><br/> Deuxième année d'étude , brevet de technicien Vêtements, Mesures, et Créations.
-            Lycée Edouard Gand, Amiens. <strong>Optention du brevet de technicien.</strong></p>
-            <p><strong>Août 2003:</strong><br/>
-            Accueil clientèle, piscine d'entreprise, Colgate Palmolive à Compiègne. Mission intérim de un mois.
-          </p>
-          </div>
-        </li>
-        <li  data-date="00/00/2004">
-          <h2>Mise à niveau en Arts appliqués</h2>
-          <div class="col-lg-12 col-md-6 col-sm-12 col-xs-10 font">
-            <p><strong>Du 3 septembre 2003 au 25 juin 2004:</strong><br/> Mise à niveau en Arts appliqués. Lycée Louis Thuillier, Amiens.</p>
-            <p><strong>juillet et août 2004:</strong><br/>
-            Remplacement vacances sur un poste de conditionneuse à Colgate palmolive. Mission intérim de un mois et 15 jours.</p>
-          </div>
-        </li>
-        <li data-date="00/00/2005">
-          <h2>Colgate palmolive</h2>
-          <div class="col-lg-12 col-md-6 col-sm-12 col-xs-10 font">
-            <p><strong>juin et décembre 2004:</strong><br/>
-            Poste de conditionneuse à Colgate palmolive. Mission intérim de six mois.</p>
-          </div>
-        </li>
-        <li  data-date="00/00/2006">
-          <h2>Première année à Continental</h2>
-          <div class="col-lg-12 col-md-6 col-sm-12 col-xs-10 font">
-            <p><strong>26 juin 2006:</strong><br/> Confectionneuse premier temps à Continental à Clairoix. Mission intérimaire.</p>
-          </div>
-        </li>
-        <li data-date="00/00/2008">
-          <h2>deuxième année à Continental</h2>
-          <div class="col-lg-12 col-md-6 col-sm-12 col-xs-10 font">
-            <p><strong>30 novembre 2008:</strong><br/>Fin de contrat intérimaire à Continental.</p>
-            <p><strong>Du 1 décembre 2008 au 31 décembre 2008:</strong><br/>
-              Veille professionnelle.</p>
-          </div>
-        </li>
-        <li data-date="00/00/2009">
-          <h2>Formation d'infographiste multimédia</h2>
-          <div class="col-lg-12 col-md-6 col-sm-12 col-xs-10 font">
-            <p><strong>Du 1 janvier au 31 août 2009:</strong><br/>
-            veille professionnelle.<br/></p>
-            <p><strong>01 septembre 2009:</strong><br/>
-            Infographiste à Sixième sens multimédia à Compiègne:<br/>
-            -Apprentissage des langages html, css, javascript, ActionScript 3, et php.<br/>
-            -Création de sites internet.<br/>
-            -PAO.<br/>
-            -Animation en flash.<br/>
-            -Conception d'un film vidéo: de la mise en scêne au montage définitif.<br/></p>
-          </div>
-        </li>
-        <li data-date="00/00/2010">
-          <h2>Stage et titre professionnel</h2>
-          <div class="col-lg-12 col-md-6 col-sm-12 col-xs-10 font">
-            <p><strong>Du 23 mars au 29 juin 2010:</strong><br/>
-            Stage de formation au sein de l'association Traces&cie à Tracy-le-Mont:<br/>
-            -Maintenance du site de l'association.<br/>
-            -Réalisation d'illustrations, d'affiches, et de flyers.<p/>
-            <p><strong>30 juin 2010:</strong><br/>
-            Fin de formation et optention du titre professionnel de niveau 3 d'infographiste multimédia<br/>
-            et d'applications web.</p>
-          </div>
-        </li>
-        <li data-date="00/00/2011">
-          <h2>Veille professionnelle</h2>
-          <div class="col-lg-12 col-md-6 col-sm-12 col-xs-10 font">
-            <p><strong>Du 1 janvier au 31 décembre 2011:</strong><br/>
-            Veille professionnelle:<br/>
-            -Réalisation de plaquettes, flyers et de décors vectoriels pour Jémy: chanson pour enfants.</p>
-          </div>
-        </li>
+      <div id="titre">
+      <h2 class="h2">LANGAGES DE PROGRAMMATION</h2>
+    </div>
+    <div class="skills">
+    <ul class="lines">
+      <li class="line l--0">
+        <span class="line__label title">
+      0
+        </span>
+      </li>
+      <li class="line l--25">
+        <span class="line__label">
+          25
+        </span>
+      </li>
+      <li class="line l--50">
+        <span class="line__label">
+          50
+        </span>
+      </li>
+      <li class="line l--75">
+        <span class="line__label">
+        75
+        </span>
+      </li>
+      <li class="line l--100">
+        <span class="line__label">
+          100
+        </span>
+      </li>
+    </ul>
+  <div class="charts">
+    <div class="progress ">
+      <div class="progress-bar HTML" data-values="70">HTML </div>
+  </div>
+  <div class="progress">
+      <div class="progress-bar  css" data-values="75">CSS</div>
+  </div>
+  <div class="progress">
+      <div class="progress-bar js" data-values="60">JAVASCRIPT</div>
+  </div>
+  <div class="progress">
+      <div class="progress-bar php" data-values="55">PHP</div>
+  </div>
+  <div class="progress">
+      <div class="progress-bar sql" data-values="40">SQL</div>
+  </div>
+<h2 class="h2">FRAMEWORKS</h2>
+  <div class="progress">
+      <div class="progress-bar ANGULAR" data-values="45">ANGULAR JS</div>
+  </div>
+  <div class="progress">
+      <div class="progress-bar JQUERY" data-values="65">JQUERY</div>
+  </div>
+  <div class="progress">
+      <div class="progress-bar BOOTSTRAP" data-values="60">BOOTSTRAP</div>
+  </div>
+  <h2 class="h2">GRAPHISME</h2>
+  <div class="progress">
+      <div class="progress-bar PHOTOSHOP" data-values="80">PHOTOSHOP</div>
+  </div>
+  <div class="progress">
+      <div class="progress-bar ILLUSTRATOR" data-values="85">ILLUSTRATOR</div>
+  </div>
+  <div class="progress">
+      <div class="progress-bar INDESIGN" data-values="55">INDESIGN</div>
+  </div>
+  <h2 class="h2">BASE DE DONNEES</h2>
+  <div class="progress">
+      <div class="progress-bar ADMIN" data-values="55">PHPMYADMIN</div>
+  </div>
+  <div class="progress">
+      <div class="progress-bar WORKBENCH" data-values=45>WORKBENCH</div>
+  </div>
+ <h2 class="h2">GESTION DE PROJETS</h2>
+  <div class="progress">
+      <div class="progress-bar GITHUB" data-values="55">GITHUB</div>
+  </div>
+  <div class="progress">
+      <div class="progress-bar GIT" data-values="50">GIT</div>
+  </div>
+  <div class="progress">
+      <div class="progress-bar TRELLO" data-values="60">TRELLO</div>
+  </div>
+  <h2 class="h2">IDE</h2>
+  <div class="progress">
+      <div class="progress-bar ATOM" data-values="70">ATOM</div>
+  </div>
+  <div class="progress">
+      <div class="progress-bar NETBEANS" data-values="55">NETBEANS</div>
+  </div>
 
-        <li data-date="00/00/2012">
-          <h2>K-logistique</h2>
-          <div class="col-lg-12 col-md-6 col-sm-12 col-xs-10 font">
-            <p><strong>Du 30 août au 15 novembre 2012:</strong><br/>
-            Conditionneuse à K-logistique, Le Meux. Mission intérimaire.</p>
-          </div>
-        </li>
-        <li data-date="00/00/2013">
-          <h2>Chanel</h2>
-          <div class="col-lg-12 col-md-6 col-sm-12 col-xs-10 font">
-            <p><strong>Du 1 juin au 30 septembre 2013:</strong><br/>
-            Conditionneuse à Chanel, Compiègne. Mission intérimaire.</p>
-          </div>
-        </li>
-        <li data-date="00/00/2014">
-          <h2>Carisiolas</h2>
-          <div class="col-lg-12 col-md-6 col-sm-12 col-xs-10 font">
-            <p><strong>Du 1 juillet au 31 décembre 2014:</strong><br/>
-            Agent polyvalent au parc Carisiolas à Crisolle:<br/>
-            -Accueil clientèle.<br/>
-            -Secretariat.</p>
-          </div>
-        </li>
-        <li data-date="00/00/2015">
-          <h2>Carisiolas</h2>
-          <div class="col-lg-12 col-md-6 col-sm-12 col-xs-10 font">
-          <p>  <strong>du 1 janvier au 31 décembre 2015:</strong><br/>
-            Agent polyvalent au parc Carisiolas à Crisolle:<br/>
-            -Réalisation de supports visuels (décors, plan du parc, panneaux descriptifs).<br/>
-            -Animation d'ateliers pédagogiques de poterie.
-            -Secretariat.</p>
-          </div>
-        </li>
-        <li data-date="00/00/2016">
-          <h2>Web développeur junior</h2>
-          <div class="col-lg-12 col-md-6 col-sm-12 col-xs-10 font">
-            <p><strong>du 17 mai au 30 novembre 2016:</strong><br/>
-            Formation web développeur à E2N Grande Ecole du Numerique (labelisée par l'etat):<br/>
-            -Réalisation en équipe du site E2N et de sa maintenance.<br/>
-            -Gestion de projet.<br/>
-            -Réalisation d'un calendrier dynamique.<br/>
-            -Summer of code: animation sur l'apprentissage du code avec des enfants.<br/>
-            -Réalisation d'un template et reverse mentoring pour le club RHde Saint-Gobain.<br/>
-            -Préparation au titre professionnel de développeur logiciel.</p>
-          </div>
-        </li>
-      </ol>
+  <h2 class="h2">SYSTEMES D'EXPLOITATION</h2>
+  <div class="progress">
+      <div class="progress-bar WINDOWS" data-values="65">WINDOWS</div>
+  </div>
+  <div class="progress">
+      <div class="progress-bar LINUX" data-values="60">LINUX</div>
+  </div>
+</div><!--end charts-->
+</div><!--end skills-->
+</div><!--end row-->
+</div><!--end container-->
+  <!--FORMATION ET XP-->
+  <div id="formation" class="container-fluid">
+    <div class="row">
+      <div id ="xp" class="centered">
+    <h1>EXPERIENCE</h1>
+  </div><!--end titre-->
+  <div>
+<!--contenu xp-->
+<section id="cd-timeline" class="cd-container">
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-work">
+      <img src="assets/images/settings-work-tool.png" alt="Picture">
+    </div> <!-- cd-timeline-img -->
+    <div class="cd-timeline-content">
+      <h2>LACROIX-SAINT-OUEN: SAVEO - Télé conseillère</h2>
+       <p>- intérim</p>
+
+      <span class="cd-date">DEPUIS LE 15 MAI 2017</span>
+    </div> <!-- cd-timeline-content -->
+
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-work">
+      <img src="assets/images/settings-work-tool.png" alt="Picture">
+    </div> <!-- cd-timeline-img -->
+    <div class="cd-timeline-content">
+      <h2>NOYON: E2N - développeuse web</h2>
+       <p>- Gestion de projets.</p>
+       <p>- Summer of code: animation sur l'apprentissage du code.</p>
+       <p>- Reverse mentoring pour le club RH de Saint-gobain.</p>
+       <p>- Intranet: conception d'un module de gestion du temps.</p>
+      <span class="cd-date">DU 16 MAI AU 30 NOVEMBRE 2016</span>
+    </div> <!-- cd-timeline-content -->
+  </div> <!-- cd-timeline-block -->
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-work">
+      <img src="assets/images/settings-work-tool.png">
+    </div> <!-- cd-timeline-img -->
+    <div class="cd-timeline-content">
+      <h2>CRISOLLE: PARC CARISIOLAS - Agent polvalent / graphiste</h2>
+       <p>- Réalisation de plusieurs supports visuels.</p>
+       <p>- Actualisation du plan du parc avec les nouvelles structures mises en place.</p>
+       <p>- Conception de panneaux pour le jardin monastique.</p>
+       <p>- Accueil clientèle</p>
+       <p>- Ateliers pédagogiques</p>
+      <span class="cd-date">DU 1 JUILLET 2014 AU 31 DECEMBRE 2015</span>
+    </div> <!-- cd-timeline-content -->
+  </div> <!-- cd-timeline-block -->
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-work">
+      <img src="assets/images/settings-work-tool.png" alt="Picture">
+    </div> <!-- cd-timeline-img -->
+    <div class="cd-timeline-content">
+      <h2>FREELENCE - ASSOCIATION JEMY: CHANSONS POUR ENFANTS</h2>
+       <p>- Création de décors de spectacle</p>
+       <p>- Conception de plaquettes et de flyers.</p>
+      <span class="cd-date"> 2014</span>
+    </div> <!-- cd-timeline-content -->
+  </div> <!-- cd-timeline-block -->
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-work">
+      <img src="assets/images/settings-work-tool.png" alt="Location">
+    </div> <!-- cd-timeline-img -->
+    <div class="cd-timeline-content">
+      <h2>COMPIEGNE: CHANEL - Conditionneuse</h2>
+      <span class="cd-date">2013</span>
+    </div> <!-- cd-timeline-content -->
+  </div> <!-- cd-timeline-block -->
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-work">
+      <img src="assets/images/settings-work-tool.png" alt="Location">
+    </div> <!-- cd-timeline-img -->
+    <div class="cd-timeline-content">
+      <h2>LE MEUX: K.A LOGISTICS - Conditionneuse</h2>
+      <span class="cd-date">2012</span>
+    </div> <!-- cd-timeline-content -->
+  </div> <!-- cd-timeline-block -->
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-work">
+      <img src="assets/images/settings-work-tool.png" >
+    </div> <!-- cd-timeline-img -->
+    <div class="cd-timeline-content">
+      <h2>FREELANCE - JEMY:CHANSONS POUR ENFANTS.</h2>
+      <p>- Conception de l'identité visuelle de l'association.</p>
+      <span class="cd-date">2011</span>
+    </div> <!-- cd-timeline-content -->
+  </div> <!-- cd-timeline-block -->
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-work">
+      <img src="assets/images/settings-work-tool.png" alt="Movie">
+    </div> <!-- cd-timeline-img -->
+    <div class="cd-timeline-content">
+      <h2>COMPIEGNE: SIXIEME SENS MULTIMEDIA - Graphiste (formation)</h2>
+      <P>- Apprentissage des différents logiciels PAO de la creative suite adobe.</P>
+      <P>- Apprentissage des langages de programmation html/css javascript php.</P>
+      <p>- <b>stage de 3 mois au sein de l'association Traces&cie:</b>  mise à jours régulière de leur site internet, créations d'affiches, de flyers
+         , et de plaquettes publicitaires. </p>
+      <p>- Obtention du titre professionnel de niveau 3 d'infographiste multimédia et applications web.</p>
+      <span class="cd-date">DU 1 SEPTEMBRE 2009 AU 1 JUIN 2010</span>
+    </div> <!-- cd-timeline-content -->
+  </div> <!-- cd-timeline-block -->
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-work">
+      <img src="assets/images/settings-work-tool.png" alt="Movie">
+    </div> <!-- cd-timeline-img -->
+    <div class="cd-timeline-content">
+      <h2>CLAIROIX: CONTINENTAL - Conditionneuse </h2>
+      <span class="cd-date">DE 2006 A 2008</span>
+    </div> <!-- cd-timeline-content -->
+  </div> <!-- cd-timeline-block -->
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-student">
+      <img src="assets/images/students-cap.png" alt="Movie">
+    </div> <!-- cd-timeline-img -->
+    <div class="cd-timeline-content">
+      <h2>AMIENS: LYCEE LOUIS THUILLIER</h2>
+      <p>- Mise à niveau en arts appliqués</p>
+      <span class="cd-date">DE 2003 A 2004</span>
+    </div> <!-- cd-timeline-content -->
+  </div> <!-- cd-timeline-block -->
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-student">
+      <img src="assets/images/students-cap.png" alt="Movie">
+    </div> <!-- cd-timeline-img -->
+    <div class="cd-timeline-content">
+      <h2>AMIENS: LYCEE EDOUARD GAND</h2>
+      <p>- préparation et obtention du BT vêtements mesures et créations</p>
+      <span class="cd-date">DE 2002 A 2003</span>
+    </div> <!-- cd-timeline-content -->
+  </div> <!-- cd-timeline-block -->
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-student">
+      <img src="assets/images/students-cap.png" alt="Movie">
+    </div> <!-- cd-timeline-img -->
+    <div class="cd-timeline-content">
+      <h2>COMPIEGNE: LYCEE MIREILLE GRENET</h2>
+      <p>- Préparation et obtention du BEP coutures floues</p>
+      <span class="cd-date">DE 2000 A 2002</span>
+    </div> <!-- cd-timeline-content -->
+  </div> <!-- cd-timeline-block -->
+</section> <!-- cd-timeline -->
+  </div>
+</div><!--end row-->
+  </div><!--end container-->
+  <!--contact-->
+  <div id="contact" class="container-fluid centered">
+   <div class="row">
+    <h1>VOUS POUVEZ ME CONTACTER</h1>
+    <div class="card">
+      <div class="ico">
+        <i class="fa fa-map-marker"></i>
+      </div>
+      <h3 class="title">à cette adresse</h3>
+      <p>188 rue Raymond Rollin</p>
+      <p>60170 Pimprez<p>
     </div>
-  </section>
-</div>
-<!--COMPETENCES-->
-<div id="competence" class="container centered">
-  <div class="row ">
-  <h1 class="titre">Compétences:</h1>
-  <div id="icon" class="col-lg-12 col-md-6 col-sm-12 col-xs-10">
+    <div class="card">
+      <div class="ico">
+        <i class="fa fa-mobile"></i>
+      </div>
+      <h3 class="title">par téléphone</h3>
+    </br>
+      <p>06-70-87-55-40</p>
+    </div>
+    <div class="card">
+      <div class="ico">
+        <i class="fa fa-envelope"></i>
+      </div>
+      <h3 class="title">par mail</h3>
+    </br>
+      <p><a class="mail" href="mailto:maitegerard1@gmail.com">maitegerard1@gmail.com</a></p>
+    </div>
+  <div id="icon">
+    <hr>
     <p>
-    <img class="zoomEffect" onclick="move()" src="assets/images/photoshop.png" alt="photoshop" title="photoshop">
-    <img class="zoomEffect" onclick="move2()" src="assets/images/illustrator.png" alt="illustrator" title="illustrator">
-    <img class="zoomEffect" onclick="move3()" src="assets/images/indesign.png" alt="indesign" title="indesign">
-    <img class="zoomEffect" onclick="move4()" src="assets/images/html.png" alt="html" title="html">
-    <img class="zoomEffect" onclick="move4()" src="assets/images/css.png" alt="css" title="css">
-  </p>
-  <p>
-    <img class="zoomEffect" onclick="move6()" src="assets/images/javascript.png" alt="javascript" title="javascript">
-    <img class="zoomEffect" onclick="move7()" src="assets/images/php.png" alt="php" title="php">
-    <img class="zoomEffect" onclick="move12()" src="assets/images/sql.png" alt="sql" title="sql">
-    <img class="zoomEffect" onclick="move5()" src="assets/images/angular.png" alt="AngularJs" title="AngularJs">
-    <img class="zoomEffect" onclick="move8()" src="assets/images/bootstrap.png" alt="Bootstrap" title="Bootstrap">
-  </p>
-  <p>
-    <img class="zoomEffect" onclick="move9()" src="assets/images/jquery.png" alt="Jquery" title="Jquery">
-    <img class="zoomEffect" onclick="move10()" src="assets/images/linux.png" alt="linux/terminal" title="Linux/terminal">
-    <img class="zoomEffect" onclick="move11()" src="assets/images/windows.png" alt="windows" title="Windows">
-    <img class="zoomEffect" onclick="move14()" src="assets/images/atom.png" alt="atom" title="Atom">
-    <img class="zoomEffect" onclick="move15()" src="assets/images/netbeans.png" alt="netbeans" title="Netbeans">
-  </p>
+      <a href="https://www.facebook.com/mouskitonk/" >  <i class="fa fa-facebook fa-2x icon"></i></a>&nbsp;&nbsp;
+      <a href="https://github.com/maite1" ><i class="fa fa-github icon fa-2x"></i></a>&nbsp;&nbsp;
+      <a href="https://www.linkedin.com/in/ma%C3%AFt%C3%A9-g%C3%A9rard-148b78128/" ><i class="fa fa-linkedin fa-2x icon"></i></a>
+    </p>
+    <hr>
   </div>
-  <div id="myProgress" class="col-lg-12 col-md-12 col-sm-12 col-xs-10">
-    <div id="myBar" class="col-lg-12 col-md-12 col-sm-12 col-xs-10">
-      <div id="label" class="col-lg-12 col-md-12 col-sm-12 col-xs-10">1%</div>
-    </div>
-  </div>
-</div>
-</div>
-<!--CENTRE D INTERETS-->
-<div id="interet" class="container centered">
-  <div class="row">
-    <div class="col-lg-12 col-md-6 col-sm-12 col-xs-10">
-  <h1>Centre d'intérêts:</h1>
-  <img  class="zoomEffect" src="assets/images/bd.png" alt="bd" title="Bande-dessinées">&nbsp;&nbsp;&nbsp;
-  <img  class="zoomEffect" src="assets/images/internet.png" alt="internet" title="internet">&nbsp;&nbsp;&nbsp;
-  <img  class="zoomEffect" src="assets/images/voyage.png" alt="voyage" title="voyages">&nbsp;&nbsp;&nbsp;
-  <img  class="zoomEffect" src="assets/images/cinema.png" alt="cinema" title="cinema">&nbsp;&nbsp;&nbsp;
-  <img  class="zoomEffect" src="assets/images/lecture.png" alt="logo_github" title="lecture">&nbsp;&nbsp;&nbsp;
-  <img  class="zoomEffect" src="assets/images/dessin.png" alt="dessin" title="le dessin">&nbsp;&nbsp;&nbsp;
-</div>
-</div>
-</div>
+  </div><!--end row-->
+</div><!--end container-fluid-->
+  <footer class="centered">Copyright &copy Maïté Gérard - 2017</footer>
+  <script src="assets/js/code.js"></script>
 </body>
 </html>
