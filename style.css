@@ -792,6 +792,8 @@ img {
 .cd-timeline-content p {
   margin: 1em 0;
   line-height: 1.6;
+font-size: 14px !important;
+  color: #222 !important;
 }
 .cd-timeline-content .cd-read-more {
   float: right;
